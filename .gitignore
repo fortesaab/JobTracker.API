@@ -1,0 +1,23 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build Folders
+bin/
+obj/
+
+# Files sensitive / development
+appsettings.Development.json
+
+# Rider / JetBrains
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Optional EF Migrations if you want to ignore database snapshot
+# Migrations/
