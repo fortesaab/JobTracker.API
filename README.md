@@ -1,97 +1,92 @@
 JobTracker – Full-Stack Job Application Tracking System
 
-JobTracker is a full-stack web application that helps users track and manage their job applications in one place.
+JobTracker is a full-stack web application designed to help users track and manage their job applications in one centralized platform.
 
-The project demonstrates real-world backend and frontend development, secure authentication, and clean API design.
+The project demonstrates practical, real-world backend and frontend development skills, including secure authentication, clean REST API design, and clear separation of concerns.
 
-This is a personal project built to strengthen full-stack skills and showcase readiness for junior / internship software developer roles.
+It was built as a personal project to strengthen full-stack engineering skills and showcase readiness for junior or internship software developer roles.
 
-
-What This Project Does?
+What the Project Does
 
 Allows users to register and log in securely
 
-Enables users to create and manage job applications
+Enables users to create, update, and manage job applications
 
 Tracks application status (Pending, Accepted, Rejected)
 
-Protects sensitive data using JWT authentication
+Protects user data through authentication and authorization
 
-Separates backend and frontend responsibilities clearly
+Ensures users can access only their own data
 
-Provides a simple, clean dashboard UI
+Provides a simple and clean dashboard interface
 
+Why This Project Matters
 
-Why This Project Matters?
-
-This project was built to simulate real-world application logic.
+This project was built to simulate real-world application logic and development workflows.
 
 It focuses on:
 
-Secure authentication & authorization
+Secure authentication and authorization
 
-Clean REST API architecture
+Clean and scalable REST API architecture
 
 Practical CRUD operations
 
 Frontend–backend communication
 
-Code organization and scalability
-
+Code organization and maintainability
 
 Key Features
 
 Authentication & Security
 
-	User registration and login
-	
-	JWT-based authentication
-	
-	Protected API endpoints
-	
-	Secure access to user-specific data
-	
+User registration and login
+
+JWT-based authentication
+
+Protected API endpoints
+
+Secure access to user-specific data
+
 Job Application Management
 
-	Create, update, delete job applications
-	
-	Filter applications by status
-	
-	Pagination support
-	
-	User-specific data isolation
+Create, update, and delete job applications
+
+Filter applications by status
+
+Pagination support
+
+User-specific data isolation
 
 Frontend
 
-	React-based UI
-	
-	Login & register forms
-	
-	Protected routes
-	
-	Simple dashboard layout
-	
-	Dark / light mode support
-	
+React-based user interface
+
+Login and registration forms
+
+Protected routes
+
+Simple dashboard layout
+
+Dark / light mode support
 
 Tech Stack
 
-Backend: 
+Backend
 
-.NET 8, 
+.NET 8
 
-Entity Framework Core, 
+Entity Framework Core
 
-MSSQL, 
+MSSQL
 
-JWT authentication.
+JWT Authentication
 
-Frontend: 
+Frontend
 
-React, 
+React
 
 Axios
-
 
 Tools & Practices
 
@@ -103,35 +98,33 @@ Clean code principles
 
 Separation of concerns
 
-
 Project Structure
 
 JobTracker.API
-│
-├── Controllers        # API endpoints
 
-├── Models             # Database entities
+Controllers – API endpoints
 
-├── DTOs               # Data transfer objects
+Models – Database entities
 
-├── Data               # DbContext & configuration
+DTOs – Data transfer objects
 
-├── Migrations         # EF Core migrations
+Data – DbContext & configuration
 
-├── Program.cs
+Migrations – EF Core migrations
 
-└── appsettings.json
+Program.cs
 
+appsettings.json
 
 How to Run the Project
 
-Backend: 
+Backend
 
-Open the project in Visual Studio, 
+Open the project in Visual Studio
 
-Configure the database connection in appsettings.json,
+Configure the database connection in appsettings.json
 
-Run migrations:
+Run migrations
 
 Add-Migration InitialCreate
 
@@ -139,14 +132,16 @@ Update-Database
 
 Run the API
 
-Open Swagger: http://localhost:5211/swagger
+Open Swagger at http://localhost:5211/swagger
 
-Frontend: 
+Frontend
 
-Navigate to the frontend directory, install dependencies:
+Navigate to the frontend directory
+
+Install dependencies
 
 npm install
 
-And start the app:
+Start the application
 
 npm start
